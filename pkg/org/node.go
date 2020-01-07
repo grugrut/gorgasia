@@ -5,4 +5,5 @@ type Node struct {
 	Title    string
 	Contents string
 	Children []Node
+	Parent   *Node
 }
